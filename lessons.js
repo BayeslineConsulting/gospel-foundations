@@ -35,7 +35,8 @@ const LESSONS=[
   ["Gospel Topics: Restoration of the Priesthood","https://www.churchofjesuschrist.org/study/manual/gospel-topics/restoration-of-the-priesthood?lang=eng"]],
  quiz:[["Who restored the Aaronic Priesthood in 1829?",["John the Baptist","Peter, James, and John","Moroni"],0,"John the Baptist (D&C 13; JS History 1:68–72)."],
   ["Which prophet foretold a famine of hearing the words of the Lord?",["Isaiah","Amos","Malachi"],1,"Amos 8:11–12."],
-  ["Who conferred the Melchizedek Priesthood on Joseph Smith and Oliver Cowdery?",["Moroni","Elijah","Peter, James, and John"],2,"Peter, James, and John (D&C 27:12–13)."]]},
+  ["Who conferred the Melchizedek Priesthood on Joseph Smith and Oliver Cowdery?",["Moroni","Elijah","Peter, James, and John"],2,"Peter, James, and John (D&C 27:12–13)."],
+  ["In the First Vision, what did Joseph Smith actually ask the two Personages?",["Which of the churches he should join","How he could become a prophet","Whether God had a body"],0,"Which church he should join (JS History 1:18); he was told to join none of them."]]},
 
 {n:2,date:"Sep 27",title:"Who God is, and who you are",
  anchors:"Preach My Gospel, Lesson 1; Gospel Foundations, Praying to Our Heavenly Father",
