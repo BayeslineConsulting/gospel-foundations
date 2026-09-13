@@ -145,7 +145,7 @@ const LESSONS=[
   ["Brad Wilcox, His Grace Is Sufficient (BYU devotional, 2011)","https://speeches.byu.edu/talks/brad-wilcox/his-grace-is-sufficient/"],
   ["David A. Bednar, Bear Up Their Burdens with Ease (Apr 2014)","https://www.churchofjesuschrist.org/study/general-conference/2014/04/bear-up-their-burdens-with-ease?lang=eng"]],
  quiz:[["According to Alma 7:12, why did Christ take upon Him our infirmities?",["To prove He was God","So He would know how to succor His people","To satisfy the law of Moses"],1,"\"That he may know according to the flesh how to succor his people according to their infirmities\" (Alma 7:12)."],
-  ["In Alma 24:11, what was \"all we could do\"?",["Fight","Pray","Repent"],2,"Repent of their sins (Alma 24:11)."],
+  ["According to John 3:16, why did God give His only begotten Son?",["Because of His judgment on the world","Because He so loved the world","Because of the law of Moses"],1,"\"For God so loved the world, that he gave his only begotten Son\" (John 3:16)."],
   ["Where, besides the cross, does the Book of Mormon say Christ suffered for sin?",["The temple","Gethsemane","The wilderness"],1,"Gethsemane; see Mosiah 3:7 and D&C 19:18."],
   ["According to Ephesians 2:8–10, what does Paul say immediately after describing salvation by grace through faith?",["That works are worthless and unnecessary","That we are created unto good works, which God ordained that we should walk in them","That baptism is no longer required"],1,"Paul does not end the sentence at grace; he ends it at good works, which God ordained that we should walk in them (verse 10)."]]},
 
