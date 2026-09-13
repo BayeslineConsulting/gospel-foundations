@@ -10,5 +10,5 @@ Files that matter:
 - deep.js                           (deep content; currently Lessons 1-4)
 - vercel.json                       (build settings)
 
-Deploy: push to the GitHub repo connected to the Vercel project `gospel-foundations`.
+Deploy: push to the GitHub repo connected to the Vercel project `gospel-foundations`. 
 Vercel runs `node build.js` and serves `public/`.
