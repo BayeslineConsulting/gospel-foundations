@@ -75,6 +75,8 @@
       else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();showSeg(cur-1)}
       else if(e.key==='Escape'){setPresent(false)}});
     try{if(sessionStorage.getItem('gf-present-'+location.pathname)==='1')setPresent(true)}catch(e){}}
+  var jump=document.getElementById('jumpLesson');
+  if(jump){jump.addEventListener('change',function(){if(jump.value)location.href=jump.value});}
   // quiz
   var qs=document.querySelectorAll('.qq'),done=0,right=0,score=document.getElementById('score');
   qs.forEach(function(q){var ans=+q.dataset.answer,opts=q.querySelectorAll('.opt'),fb=q.querySelector('.fb'),note=q.dataset.note;
