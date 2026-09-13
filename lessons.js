@@ -30,7 +30,7 @@ const LESSONS=[
  invite_url:"https://www.churchofjesuschrist.org/study/scriptures/the-restoration-of-the-fulness-of-the-gospel-of-jesus-christ/a-bicentennial-proclamation-to-the-world?lang=eng",
  promise:"Living prophets are our greatest safety (Preach My Gospel, Lesson 1).",
  share:"Our church can tell you exactly when God gave it authority, and by whom.",
- videos:[["Tad R. Callister, What Is the Blueprint of Christ's Church? (CES devotional, 2014)","https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2014/01/what-is-the-blueprint-of-christs-church?lang=eng"],
+ videos:[["Tad R. Callister, What Is the Blueprint of Christ's Church? (CES devotional, 2014)","https://www.churchofjesuschrist.org/broadcasts/article/ces-devotionals/2014/01/what-is-the-blueprint-of-christs-church?lang=eng"],
   ["Jeffrey R. Holland, Prophets in the Land Again (Oct 2006)","https://www.churchofjesuschrist.org/study/general-conference/2006/10/prophets-in-the-land-again?lang=eng"],
   ["Gospel Topics: Restoration of the Priesthood","https://www.churchofjesuschrist.org/study/manual/gospel-topics/restoration-of-the-priesthood?lang=eng"]],
  quiz:[["Who restored the Aaronic Priesthood in 1829?",["John the Baptist","Peter, James, and John","Moroni"],0,"John the Baptist (D&C 13; JS History 1:68–72)."],
