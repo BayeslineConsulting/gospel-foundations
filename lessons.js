@@ -62,7 +62,8 @@ const LESSONS=[
   ["Gospel Topics: Godhead","https://www.churchofjesuschrist.org/study/manual/gospel-topics/godhead?lang=eng"]],
  quiz:[["According to D&C 130:22, which members of the Godhead have bodies of flesh and bones?",["The Father only","The Father and the Son","All three"],1,"The Father and the Son; the Holy Ghost is a personage of spirit (D&C 130:22)."],
   ["What did Stephen see in Acts 7?",["A pillar of fire","Jesus standing on the right hand of God","An angel with a book"],1,"Jesus standing on the right hand of God (Acts 7:55–56)."],
-  ["Which creed describes God as without body, parts, or passions?",["The Apostles' Creed","The Thirty-Nine Articles","The Nicene Creed"],1,"The Thirty-Nine Articles, Article I (also Westminster Confession 2.1)."]]},
+  ["Which creed describes God as without body, parts, or passions?",["The Apostles' Creed","The Thirty-Nine Articles","The Nicene Creed"],1,"The Thirty-Nine Articles, Article I (also Westminster Confession 2.1)."],
+  ["According to Moses 1:39, what does God name as His own work and His glory?",["Creating worlds without number","The immortality and eternal life of man","Judging the wicked at the last day"],1,"\"To bring to pass the immortality and eternal life of man\" (Moses 1:39)."]]},
 
 {n:3,date:"Oct 11",title:"The plan, part 1: before birth, the Fall, and why you have a body",
  anchors:"Preach My Gospel, Lesson 2; Gospel Foundations, Your Body Is Sacred",
@@ -88,7 +89,8 @@ const LESSONS=[
   ["Russell M. Nelson, Thanks Be to God (Apr 2012)","https://www.churchofjesuschrist.org/study/general-conference/2012/04/thanks-be-to-god?lang=eng"]],
  quiz:[["Who shouted for joy at the creation of the earth, according to Job 38?",["The angels of the seventh heaven","All the sons of God","The morning watch"],1,"\"All the sons of God shouted for joy\" (Job 38:7)."],
   ["Finish the verse: \"Adam fell that men might be; and men are, that they might have…\"",["peace","joy","knowledge"],1,"Joy (2 Nephi 2:25)."],
-  ["Which Article of Faith says we are punished for our own sins and not for Adam's transgression?",["The first","The second","The fourth"],1,"The second Article of Faith."]]},
+  ["Which Article of Faith says we are punished for our own sins and not for Adam's transgression?",["The first","The second","The fourth"],1,"The second Article of Faith."],
+  ["According to D&C 88:15, what actually makes up the \"soul\" of man?",["The spirit alone","The spirit and the body together","The body alone"],1,"\"The spirit and the body are the soul of man\" (D&C 88:15)."]]},
 
 {n:4,date:"Oct 25",title:"The plan, part 2: why mortality, what comes after, and becoming like Christ",
  anchors:"Preach My Gospel, Lesson 2",
@@ -115,7 +117,8 @@ const LESSONS=[
   ["Russell M. Nelson, Salvation and Exaltation (Apr 2008)","https://www.churchofjesuschrist.org/study/general-conference/2008/04/salvation-and-exaltation?lang=eng"]],
  quiz:[["According to Abraham 3:25, what is the test of mortality?",["Whether we will believe","Whether we will do all things the Lord commands","Whether we will suffer patiently"],1,"\"To see if they will do all things whatsoever the Lord their God shall command them\" (Abraham 3:25)."],
   ["Which section of the Doctrine and Covenants describes the three degrees of glory?",["Section 76","Section 88","Section 138"],0,"Section 76, the Vision."],
-  ["Paul says we are heirs of God and…",["servants of Christ","joint-heirs with Christ","friends of Christ"],1,"Joint-heirs with Christ (Romans 8:17)."]]},
+  ["Paul says we are heirs of God and…",["servants of Christ","joint-heirs with Christ","friends of Christ"],1,"Joint-heirs with Christ (Romans 8:17)."],
+  ["According to 2 Nephi 2:11, why is opposition necessary?",["Without it there would be no righteousness to choose, and no wickedness either","God enjoys watching people struggle","It only applied to Adam and Eve, not to us"],0,"\"If not so...righteousness could not be brought to pass, neither wickedness\" (2 Nephi 2:11)."]]},
 
 {n:5,date:"Nov 1",title:"The Atonement of Jesus Christ",
  anchors:"Gospel Foundations, The Atonement of Jesus Christ; Preach My Gospel, Lessons 2 and 3",
@@ -143,7 +146,8 @@ const LESSONS=[
   ["David A. Bednar, Bear Up Their Burdens with Ease (Apr 2014)","https://www.churchofjesuschrist.org/study/general-conference/2014/04/bear-up-their-burdens-with-ease?lang=eng"]],
  quiz:[["According to Alma 7:12, why did Christ take upon Him our infirmities?",["To prove He was God","So He would know how to succor His people","To satisfy the law of Moses"],1,"\"That he may know according to the flesh how to succor his people according to their infirmities\" (Alma 7:12)."],
   ["In Alma 24:11, what was \"all we could do\"?",["Fight","Pray","Repent"],2,"Repent of their sins (Alma 24:11)."],
-  ["Where, besides the cross, does the Book of Mormon say Christ suffered for sin?",["The temple","Gethsemane","The wilderness"],1,"Gethsemane; see Mosiah 3:7 and D&C 19:18."]]},
+  ["Where, besides the cross, does the Book of Mormon say Christ suffered for sin?",["The temple","Gethsemane","The wilderness"],1,"Gethsemane; see Mosiah 3:7 and D&C 19:18."],
+  ["According to Ephesians 2:8–10, what does Paul say immediately after describing salvation by grace through faith?",["That works are worthless and unnecessary","That we are created unto good works, which God ordained that we should walk in them","That baptism is no longer required"],1,"Paul does not end the sentence at grace; he ends it at good works, which God ordained that we should walk in them (verse 10)."]]},
 
 {n:6,date:"Nov 8",title:"The doctrine of Christ",
  anchors:"Preach My Gospel, Lesson 3; Gospel Foundations, Obedience to God's Commandments",
@@ -169,7 +173,8 @@ const LESSONS=[
   ["Gospel Topics: Baptism","https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptism?lang=eng"]],
  quiz:[["Which chapter records the risen Christ teaching His doctrine to the Nephites?",["3 Nephi 11","3 Nephi 18","Moroni 8"],0,"3 Nephi 11:31–40."],
   ["What did Peter tell the crowd to do in Acts 2:38?",["Believe and be saved","Repent and be baptized","Sell all and follow"],1,"\"Repent, and be baptized every one of you in the name of Jesus Christ\" (Acts 2:38)."],
-  ["At what age does the Lord say children become accountable?",["Six","Eight","Twelve"],1,"Eight years old (D&C 68:25–27)."]]},
+  ["At what age does the Lord say children become accountable?",["Six","Eight","Twelve"],1,"Eight years old (D&C 68:25–27)."],
+  ["According to John 3:5, what two things does Jesus tell Nicodemus are required to enter the kingdom of God?",["Faith and repentance","Water and Spirit","Sacrifice and prayer"],1,"\"Except a man be born of water and of the Spirit\" (John 3:5)."]]},
 
 {n:7,date:"Nov 15",title:"Personal revelation: how truth is known",
  anchors:"Gospel Foundations, Personal Revelation Through the Holy Ghost; Preach My Gospel, chapter 4 and Lesson 1",
@@ -195,7 +200,8 @@ const LESSONS=[
   ["David A. Bednar, Receive the Holy Ghost (Oct 2010)","https://www.churchofjesuschrist.org/study/general-conference/2010/10/receive-the-holy-ghost?lang=eng"]],
  quiz:[["Moroni 10:4 says the Holy Ghost will manifest the truth to those who ask with what?",["A loud voice","A sincere heart, real intent, and faith in Christ","A written record"],1,"\"With a sincere heart, with real intent, having faith in Christ\" (Moroni 10:4)."],
   ["According to D&C 8:2, where does the Lord say He will tell you?",["In a dream","In your mind and in your heart","Through a prophet only"],1,"\"In your mind and in your heart\" (D&C 8:2)."],
-  ["Where was the Lord found in 1 Kings 19?",["In the wind","In the earthquake","In a still small voice"],2,"In a still small voice (1 Kings 19:12)."]]},
+  ["Where was the Lord found in 1 Kings 19?",["In the wind","In the earthquake","In a still small voice"],2,"In a still small voice (1 Kings 19:12)."],
+  ["In Alma 32, what does Alma compare the word of God to?",["A seed","A sword","A mirror"],0,"\"We will compare the word unto a seed\" (Alma 32:28)."]]},
 
 {n:8,date:"Nov 22",title:"Scriptures, prophets, and the Book of Mormon",
  anchors:"Gospel Foundations, Scriptures and Prophets Teach of Jesus Christ; Preach My Gospel, chapter 5 and Lesson 1",
@@ -222,7 +228,8 @@ const LESSONS=[
   ["Russell M. Nelson, The Book of Mormon: What Would Your Life Be Like without It? (Oct 2017)","https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-book-of-mormon-what-would-your-life-be-like-without-it?lang=eng"]],
  quiz:[["Which Old Testament book contains the same \"do not add to it\" warning as Revelation 22?",["Deuteronomy","Psalms","Isaiah"],0,"Deuteronomy 4:2 and 12:32."],
   ["In Ezekiel 37, what becomes one in the prophet's hand?",["Two swords","Two sticks","Two scrolls of law"],1,"The stick of Judah and the stick of Joseph become one (Ezekiel 37:15–19)."],
-  ["Which Article of Faith says God \"will yet reveal many great and important things\"?",["The eighth","The ninth","The tenth"],1,"The ninth Article of Faith."]]},
+  ["Which Article of Faith says God \"will yet reveal many great and important things\"?",["The eighth","The ninth","The tenth"],1,"The ninth Article of Faith."],
+  ["According to Amos 3:7, what rule does the prophet state about how God operates?",["He acts alone, without warning anyone","He does nothing without revealing His secret to His servants the prophets","He only spoke through prophets before Christ's time"],1,"\"Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets\" (Amos 3:7)."]]},
 
 {n:9,date:"Nov 29",title:"Covenants, the Sabbath, and the sacrament",
  anchors:"Gospel Foundations, The Sabbath Day and the Sacrament, and Obedience to God's Commandments; Preach My Gospel, Lesson 4",
@@ -248,7 +255,8 @@ const LESSONS=[
   ["Dale G. Renlund, Choose You This Day (Oct 2018)","https://www.churchofjesuschrist.org/study/general-conference/2018/10/choose-you-this-day?lang=eng"]],
  quiz:[["In the sacrament prayer on the bread, what do we witness we are willing to do?",["Take upon us His name, always remember Him, keep His commandments","Fast, pray, and pay tithing","Attend the temple monthly"],0,"Moroni 4:3; D&C 20:77."],
   ["What does Exodus 31:13 call the Sabbath?",["A rest","A sign","A feast"],1,"\"It is a sign between me and you\" (Exodus 31:13)."],
-  ["D&C 82:10 says the Lord is bound when we do what?",["Believe","Pray","Do what He says"],2,"\"I, the Lord, am bound when ye do what I say\" (D&C 82:10)."]]},
+  ["D&C 82:10 says the Lord is bound when we do what?",["Believe","Pray","Do what He says"],2,"\"I, the Lord, am bound when ye do what I say\" (D&C 82:10)."],
+  ["According to Mark 2:27, what does Jesus say about the Sabbath?",["It was made for man, and not man for the Sabbath","It must never be discussed on the day itself","It applies only to priests, not ordinary people"],0,"\"The sabbath was made for man, and not man for the sabbath\" (Mark 2:27)."]]},
 
 {n:10,date:"Dec 6",title:"The temple, eternal families, and our ancestors",
  anchors:"Gospel Foundations, The Covenants and Ordinances of the Temple, and Making the Blessings of the Gospel Available to Our Deceased Ancestors; Preach My Gospel, Lesson 4",
@@ -274,7 +282,8 @@ const LESSONS=[
   ["Russell M. Nelson, The Temple and Your Spiritual Foundation (Oct 2021)","https://www.churchofjesuschrist.org/study/general-conference/2021/10/47nelson?lang=eng"]],
  quiz:[["Which New Testament verse mentions baptism for the dead?",["Romans 6:4","1 Corinthians 15:29","Hebrews 11:40"],1,"1 Corinthians 15:29."],
   ["Who restored the sealing keys in the Kirtland Temple?",["Moses","Elias","Elijah"],2,"Elijah (D&C 110:13–16)."],
-  ["According to 1 Peter 4:6, why was the gospel preached to the dead?",["So they could be judged as men in the flesh and live according to God in the spirit","So they could return to earth","So they could become angels"],0,"1 Peter 4:6."]]},
+  ["According to 1 Peter 4:6, why was the gospel preached to the dead?",["So they could be judged as men in the flesh and live according to God in the spirit","So they could return to earth","So they could become angels"],0,"1 Peter 4:6."],
+  ["Which Old Testament prophecy do Latter-day Saints read as pointing to temples built \"in the tops of the mountains,\" beginning with Salt Lake?",["Isaiah 2:2–3","Amos 3:7","Jeremiah 1:5"],0,"\"The mountain of the Lord's house shall be established in the top of the mountains\" (Isaiah 2:2)."]]},
 
 {n:11,date:"Dec 13",title:"Becoming like Him: Christlike attributes, service, and sacrifice",
  anchors:"Preach My Gospel, chapter 6; Gospel Foundations, Caring for Those in Need, and Sacrifice: Tithes and Offerings",
@@ -300,7 +309,8 @@ const LESSONS=[
   ["David A. Bednar, The Windows of Heaven (Oct 2013)","https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-windows-of-heaven?lang=eng"]],
  quiz:[["Mosiah 3:19 says the natural man becomes a saint through what?",["Obedience alone","The atonement of Christ the Lord","Fasting and prayer"],1,"\"Through the atonement of Christ the Lord\" (Mosiah 3:19)."],
   ["Moroni 7:48 promises that when He appears, we shall be…",["forgiven","like him","judged"],1,"\"We shall be like him, for we shall see him as he is\" (Moroni 7:48)."],
-  ["Which Book of Mormon king said that serving others is serving God?",["Nephi","Benjamin","Mosiah"],1,"King Benjamin (Mosiah 2:17)."]]},
+  ["Which Book of Mormon king said that serving others is serving God?",["Nephi","Benjamin","Mosiah"],1,"King Benjamin (Mosiah 2:17)."],
+  ["According to Malachi 3:10, what does God invite people to do with the commandment of tithing, almost nowhere else in scripture?",["Ignore it if it's inconvenient","Prove Him, and test the commandment to see what happens","Pay it only once a year at most"],1,"\"Prove me now herewith, saith the Lord of hosts\" (Malachi 3:10)."]]},
 
 {n:12,date:"Dec 27",title:"Inviting all: the Light of the World",
  anchors:"Gospel Foundations, Inviting All to Receive the Gospel of Jesus Christ; Preach My Gospel, chapters 1, 9, and 10",
@@ -327,7 +337,8 @@ const LESSONS=[
   ["Jeffrey R. Holland, Witnesses unto Me (Apr 2001)","https://www.churchofjesuschrist.org/study/general-conference/2001/04/witnesses-unto-me?lang=eng"]],
  quiz:[["D&C 4:2 says to serve God with all your…",["heart, might, mind and strength","faith, hope, and charity","time, talents, and means"],0,"\"With all your heart, might, mind and strength\" (D&C 4:2)."],
   ["According to D&C 18:16, how great will your joy be if you bring one soul to Christ?",["Small but real","Great","Unmeasurable only in the next life"],1,"\"How great shall be your joy with him in the kingdom of my Father\" (D&C 18:15–16)."],
-  ["1 Peter 3:15 says to be ready always to give what?",["A sermon","An answer for the hope that is in you","A sign"],1,"\"An answer to every man that asketh you a reason of the hope that is in you\" (1 Peter 3:15)."]]},
+  ["1 Peter 3:15 says to be ready always to give what?",["A sermon","An answer for the hope that is in you","A sign"],1,"\"An answer to every man that asketh you a reason of the hope that is in you\" (1 Peter 3:15)."],
+  ["According to Mosiah 28:3, what specific feeling drove the sons of Mosiah to want salvation declared to every creature?",["A sense of duty","They could not bear the thought that any soul should perish","A desire for recognition"],1,"\"They could not bear that any human soul should perish\" (Mosiah 28:3)."]]},
 ];
 const SKIPS={"Sep 20":"No class; stake conference","Oct 4":"No class; general conference","Oct 18":"No class; both teachers away","Dec 20":"No second hour; Christmas"};
 const ORDER=["Sep 6","Sep 13","Sep 20","Sep 27","Oct 4","Oct 11","Oct 18","Oct 25","Nov 1","Nov 8","Nov 15","Nov 22","Nov 29","Dec 6","Dec 13","Dec 20","Dec 27"];
