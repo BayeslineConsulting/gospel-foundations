@@ -464,7 +464,8 @@ module.exports={
  quiz:[["According to 2 Nephi 29:10, why can God give more scripture after the Bible?",["He cannot; the verse says otherwise","Speaking one word does not mean He cannot speak another","Only prophets before Christ could add scripture"],1,"\"Because that I have spoken one word ye need not suppose that I cannot speak another\" (2 Nephi 29:10)."],["What does the Church's own Gospel Topics essay say Joseph Smith used to translate, alongside the interpreters?",["A quill pen only","A seer stone placed in a hat","A telescope"],1,"A seer stone placed in a hat, per the 2013 essay \"Book of Mormon Translation.\""]]
 },
 9:{
- study:[["Bible Videos: The Last Supper and the final events (collection)","https://www.churchofjesuschrist.org/media/collection/bible-videos-final-events?lang=eng"]]
+ clips:[["Jesus Christ introduces the sacrament, Book of Mormon Videos (about six minutes)","https://www.youtube.com/watch?v=Sky4Mf0izn8","Sky4Mf0izn8","scriptures"]],
+ study:[["Jesus Christ Introduces the Sacrament, Book of Mormon Videos (6 min)","https://www.youtube.com/watch?v=Sky4Mf0izn8","Sky4Mf0izn8"],["Bible Videos: The Last Supper and the final events (collection)","https://www.churchofjesuschrist.org/media/collection/bible-videos-final-events?lang=eng"]]
 },
 10:{
  clips:[["Baptism for the dead, Now You Know (about three minutes)","https://www.youtube.com/watch?v=c77vzBiY0zg","c77vzBiY0zg","why"]],
@@ -475,7 +476,7 @@ module.exports={
  study:[["A Good Samaritan (3 min)","https://www.youtube.com/watch?v=knujQ81iWjk","knujQ81iWjk"],["The Good Samaritan, Bible video","https://www.churchofjesuschrist.org/media/video/1998-05-0001-the-good-samaritan?lang=eng"]]
 },
 12:{
- clips:[["Because of Him (about two and a half minutes)","https://www.youtube.com/watch?v=fGCbMEmpY4g","fGCbMEmpY4g","testify"]],
- study:[["Because of Him, Easter video (2.5 min)","https://www.youtube.com/watch?v=fGCbMEmpY4g","fGCbMEmpY4g"]]
+ clips:[["Missionaries of Jesus Christ, Now You Know (about three minutes)","https://www.youtube.com/watch?v=R5pViSBQyqg","R5pViSBQyqg","why"]],
+ study:[["Missionaries of Jesus Christ, Now You Know (3 min)","https://www.youtube.com/watch?v=R5pViSBQyqg","R5pViSBQyqg"],["Because of Him, Easter video (2.5 min)","https://www.youtube.com/watch?v=fGCbMEmpY4g","fGCbMEmpY4g"]]
 },
 };
