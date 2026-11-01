@@ -77,12 +77,54 @@
     try{if(sessionStorage.getItem('gf-present-'+location.pathname)==='1')setPresent(true)}catch(e){}}
   var jump=document.getElementById('jumpLesson');
   if(jump){jump.addEventListener('change',function(){if(jump.value)location.href=jump.value});}
-  // quiz
-  var qs=document.querySelectorAll('.qq'),done=0,right=0,score=document.getElementById('score');
-  qs.forEach(function(q){var ans=+q.dataset.answer,opts=q.querySelectorAll('.opt'),fb=q.querySelector('.fb'),note=q.dataset.note;
-    opts.forEach(function(o,i){o.addEventListener('click',function(){if(q.dataset.done)return;q.dataset.done='1';done++;
-      if(i===ans){o.classList.add('right');right++;fb.textContent='Right. '+note}else{o.classList.add('wrong');opts[ans].classList.add('right');fb.textContent='Not quite. '+note}
-      opts.forEach(function(x){x.disabled=true});
-      if(done===qs.length&&score){score.textContent=right+' of '+qs.length+'. '+(right===qs.length?'You have it.':'Worth a second look.')}
-    })})});
+  // quiz: shuffled every visit, one question at a time, recap at the end
+  function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+  function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+  document.querySelectorAll('.quiz').forEach(function(box){
+    var cards=Array.prototype.slice.call(box.querySelectorAll('.qq'));if(!cards.length)return;
+    var key='gf-quiz-best-'+(box.dataset.quiz||location.pathname),scoreEl=box.querySelector('.score');
+    cards.forEach(function(q){var opts=Array.prototype.slice.call(q.querySelectorAll('.opt'));q._right=opts[+q.dataset.answer];q._opts=opts});
+    box.classList.add('stepped');
+    var head=el('div','qhead'),count=el('span','qcount'),best=el('span','qbest'),bar=el('div','qbar'),fill=el('span','qfill');
+    bar.appendChild(fill);head.appendChild(count);head.appendChild(best);box.insertBefore(bar,box.firstChild);box.insertBefore(head,bar);
+    var next=el('button','qnext');next.type='button';box.insertBefore(next,scoreEl);
+    var recap=el('div','qrecap');box.appendChild(recap);
+    var order,idx,right,missed;
+    function getBest(){try{return +localStorage.getItem(key)||0}catch(e){return 0}}
+    function setBest(v){try{if(v>getBest())localStorage.setItem(key,String(v))}catch(e){}}
+    function showBest(){var b=cards.length>3?getBest():0;best.textContent=b?'Your best: '+b+' of '+cards.length:''}
+    function start(){
+      order=shuffle(cards.slice());idx=0;right=0;missed=[];
+      order.forEach(function(q){box.insertBefore(q,next);delete q.dataset.done;
+        var wrap=q.querySelector('.opts'),opts=q.dataset.fixed?q._opts:shuffle(q._opts.slice());
+        opts.forEach(function(o){o.disabled=false;o.classList.remove('right','wrong');wrap.appendChild(o)});
+        q.querySelector('.fb').textContent='';q.classList.remove('on')});
+      recap.innerHTML='';recap.classList.remove('on');scoreEl.textContent='';showBest();show(0,false)}
+    function show(i,focus){idx=i;order.forEach(function(q,j){q.classList.toggle('on',j===i)});
+      count.textContent='Question '+(i+1)+' of '+order.length;fill.style.width=(i/order.length*100)+'%';
+      next.classList.remove('on');head.style.display='';bar.style.display='';
+      if(focus){var top=box.getBoundingClientRect().top;if(top<70)window.scrollBy({top:top-80,behavior:'smooth'});
+        var first=order[i].querySelector('.opt');if(first)try{first.focus({preventScroll:true})}catch(e){}}}
+    function answer(q,o){if(q.dataset.done)return;q.dataset.done='1';var ok=o===q._right,fb=q.querySelector('.fb');
+      if(ok){right++;o.classList.add('right');fb.textContent='Right. '+q.dataset.note}
+      else{o.classList.add('wrong');q._right.classList.add('right');fb.textContent='Not quite. '+q.dataset.note;missed.push(q)}
+      q._opts.forEach(function(x){x.disabled=true});
+      fill.style.width=((idx+1)/order.length*100)+'%';
+      next.textContent=idx<order.length-1?'Next question ›':'See how you did';next.classList.add('on');
+      try{next.focus({preventScroll:true})}catch(e){}}
+    function finish(){order.forEach(function(q){q.classList.remove('on')});next.classList.remove('on');head.style.display='none';bar.style.display='none';
+      var n=order.length,line=right===n?'Every one. You have it.':right>=n*0.7?'Solid. The ones you missed are below.':right>=n*0.4?'Not bad. Worth a second look at the ones below.':'Worth another pass. Here is what you missed.';
+      var wasBest=getBest();setBest(right);
+      recap.appendChild(el('p','qfinal',right+' of '+n));recap.appendChild(el('p','qline',line));
+      if(n>3&&wasBest&&right>wasBest)recap.appendChild(el('p','qline','That beats your best of '+wasBest+'.'));
+      if(missed.length){var ul=el('ul','qmissed');missed.forEach(function(q){var li=el('li');
+        li.appendChild(el('p','mq',q.querySelector('.prompt-q').textContent));
+        li.appendChild(el('p','ma','Answer: '+q._right.textContent));li.appendChild(el('p','mn',q.dataset.note.replace(/^(True|False)\.\s*/,'')));ul.appendChild(li)});recap.appendChild(ul)}
+      var again=el('button','btn qagain',n>3?'Try again in a new order':'Try again');again.type='button';
+      again.addEventListener('click',function(){start();show(0,true)});recap.appendChild(again);recap.classList.add('on');
+      var top=box.getBoundingClientRect().top;if(top<70)window.scrollBy({top:top-80,behavior:'smooth'})}
+    cards.forEach(function(q){q._opts.forEach(function(o){o.addEventListener('click',function(){answer(q,o)})})});
+    next.addEventListener('click',function(){if(idx<order.length-1)show(idx+1,true);else finish()});
+    start();
+  });
 })();

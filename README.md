@@ -8,6 +8,7 @@ Files that matter:
 - build.js                          (page templates)
 - lessons.js                        (lesson data)
 - deep.js                           (deep content; currently Lessons 1-4)
+- quizzes.js                        (the 10 quiz questions per lesson; right answer first, the page shuffles)
 - vercel.json                       (build settings)
 
 Deploy: push to the GitHub repo connected to the Vercel project `gospel-foundations`. 

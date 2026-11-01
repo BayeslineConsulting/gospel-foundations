@@ -82,6 +82,22 @@ section.lesson-seg.now h2{color:var(--gold-deep)}
 .opt.right{background:var(--green-wash);border-color:var(--green)}.opt.wrong{background:var(--red-wash);border-color:var(--red)}.opt:disabled{cursor:default}
 .fb{font-family:var(--sans);font-size:14.5px;color:var(--soft);margin:8px 0 0;min-height:1em}
 .score{font-family:var(--sans);font-size:15px;color:var(--blue-deep);margin:14px 0 0;font-weight:600}
+.quiz-intro{font-family:var(--sans);font-size:15px;color:var(--soft);margin:0}
+.qkind{font-family:var(--sans);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-deep);font-weight:600;margin:0 0 6px}
+.quiz.stepped .qq{display:none;margin:0}.quiz.stepped .qq.on{display:block;animation:qin .18s ease-out}
+@keyframes qin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.qhead{display:flex;justify-content:space-between;gap:10px;font-family:var(--sans);font-size:13.5px;color:var(--soft);margin:0 0 8px}.qcount{font-weight:600;color:var(--blue-deep)}
+.qbar{height:5px;background:var(--wash);border-radius:3px;overflow:hidden;margin:0 0 16px}.qfill{display:block;height:100%;width:0;background:var(--gold);transition:width .25s ease}
+.quiz.stepped .prompt-q{font-size:19px;line-height:1.35}
+.opt:not(:disabled):hover{border-color:var(--blue);background:var(--blue-wash)}.opt:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.qnext{display:none;margin:14px 0 0;font-family:var(--sans);font-size:15.5px;font-weight:600;padding:11px 18px;border-radius:8px;border:1px solid var(--blue);background:var(--blue);color:#fff;cursor:pointer}.qnext.on{display:inline-block}
+.qrecap{display:none}.qrecap.on{display:block}
+.qfinal{font-size:40px;line-height:1;margin:4px 0 6px;font-weight:600;color:var(--blue-deep)}.qline{font-family:var(--sans);font-size:15.5px;color:var(--ink);margin:0 0 6px}
+.qmissed{list-style:none;padding:0;margin:14px 0 16px;border-top:1px solid var(--rule)}.qmissed li{padding:12px 0;border-bottom:1px solid var(--rule)}
+.qmissed .mq{margin:0 0 4px;font-weight:600}.qmissed .ma{margin:0 0 4px;font-family:var(--sans);font-size:15px;color:var(--green)}.qmissed .mn{margin:0;font-family:var(--sans);font-size:14.5px;color:var(--soft)}
+.qagain{margin-top:10px}
+body.big .quiz.stepped .prompt-q{font-size:25px}body.big .qkind,body.big .qhead{font-size:16px}body.big .fb,body.big .qline,body.big .qmissed .ma,body.big .qmissed .mn{font-size:19px}body.big .qnext{font-size:19px}
+@media (prefers-reduced-motion:reduce){.quiz.stepped .qq.on{animation:none}.qfill{transition:none}}
 .sundays{list-style:none;padding:0;margin:18px 0 0;background:var(--card);border:1px solid var(--rule);border-radius:12px;overflow:hidden}
 .sundays li{border-bottom:1px solid var(--rule)}.sundays li:last-child{border-bottom:0}
 .sundays a.row{display:grid;grid-template-columns:60px 1fr;gap:12px;padding:14px 16px;text-decoration:none;color:inherit}
