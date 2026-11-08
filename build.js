@@ -2,7 +2,7 @@ const fs=require('fs');const D=require('./lessons.js');let DEEP={};try{DEEP=requ
 const {SEGMENTS,LESSONS,SKIPS,ORDER,GL}=D;
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#x27;');
 let QUIZ={};try{QUIZ=require('./quizzes.js')}catch(e){}
-const KIND={verse:'Finish the verse',tf:'True or false',who:'Who said it',where:'Where is it'};
+const KIND={verse:'Finish the verse',tf:'True or false',who:'Who said it',where:'Where is it',friend:'A friend asks'};
 const normQ=q=>Array.isArray(q)?{q:q[0],o:q[1],a:q[2],n:q[3]}:(q.k==='tf'?{k:'tf',q:q.q,o:['True','False'],a:q.t?0:1,n:q.n}:{k:q.k,q:q.q,o:q.o,a:0,n:q.n});
 const quizHTML=(qs,id)=>`<div class="quiz" data-quiz="${id}">`+qs.map(q=>`<div class="qq" data-answer="${q.a}" data-note="${esc(q.n)}"${q.k==='tf'?' data-fixed="1"':''}>${q.k&&KIND[q.k]?`<p class="qkind">${KIND[q.k]}</p>`:''}<p class="prompt-q">${esc(q.q)}</p><div class="opts">${q.o.map(o=>`<button class="opt" type="button">${esc(o)}</button>`).join('')}</div><p class="fb" aria-live="polite"></p></div>`).join('')+'<p class="score"></p></div>';
 const PLAY='<svg viewBox="0 0 16 16" fill="currentColor"><path d="M3 2v12l10-6z"/></svg>';
